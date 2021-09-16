@@ -7,3 +7,6 @@ Deployed page: https://preston0214.github.io/personal-porfolio/
 
 ## screenshot of deployed page
 
+![image](./assets/images/hw02-screenshot.jpg)
+
+
