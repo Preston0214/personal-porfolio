@@ -1,33 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: dodgerblue;
+    background-image: linear-gradient(to right, dodgerblue, rgb(10, 74, 138));
     z-index: 2;
+    height: 135px;
+}
+
+.me{
+    border-radius: 100px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 body {
-    background-color: rgb(196, 195, 195);
+    /* background-color: rgb(196, 195, 195); */
+    background-image: linear-gradient(rgb(207, 207, 207), rgb(65, 65, 65));
 }
 
 
 header h1 {
     font-size: 25px;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: fixed;
+    top: 5px;
 }
 
 header nav {
-    font-size: 20px;
+    font-size: 16px;
     text-align: end;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    
 }
 
 header ul {
     margin-bottom: 5px;
+    word-spacing: 4px;
 }
 
 header ul li {
     display: inline;
+    word-spacing: 2px;
+
 }
 
 header ul li a {
@@ -41,6 +66,8 @@ header ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    
+    
 }
 .work1 .caption {
     position: relative;
@@ -48,6 +75,7 @@ header ul li a {
 
 .work1 div img {
     width: 100%;
+    padding-top: 70px;
 }
 
 .work2 {
@@ -81,6 +109,7 @@ header ul li a {
 .outer-container {
     padding-top: 100px;
     padding-bottom: 20px;
+    
 }
 
 .article {
@@ -88,22 +117,23 @@ header ul li a {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 90px;
-
 }
 
 article {
     background-color: rgb(150, 201, 253);
     text-align: center;
     width: 50%;
+    box-shadow: black 4px 4px 10px;
 }
 
 article h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 article p {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     padding: 10px;
 
@@ -114,7 +144,7 @@ article p {
 }
 
 footer {
-    background-color: dodgerblue;
+    background-image: linear-gradient(to right, dodgerblue, rgb(10, 74, 138));
     color: white;
     text-align: center;
     position: fixed;
@@ -132,6 +162,7 @@ footer h3 {
 
  footer ul li {
      display: inline;
+     margin-top: 20px;
  }
 
 footer ul li a {
@@ -139,3 +170,5 @@ footer ul li a {
     font-size: 20px;
     padding: 5px;
 }
+
+
